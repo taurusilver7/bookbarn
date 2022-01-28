@@ -183,6 +183,10 @@ html::-webkit-scrollbar-thumb {
   text-align: center;
 }
 
+.login-form-container form span {
+  display: block;
+}
+
 /* Media Queries */
 
 @media (max-width: 991px) {
