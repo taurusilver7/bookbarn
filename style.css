@@ -191,11 +191,26 @@ html::-webkit-scrollbar-thumb {
 
 .login-form-container form .box {
   width: 100%;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   font-size: 1rem;
   border: var(--border);
   border-radius: 0.25rem;
   padding: 0.5rem;
+  color: var(--black);
+  text-transform: none;
+}
+
+.login-form-container form .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 0;
+}
+
+.login-form-container form .checkbox label {
+  font-size: 1rem;
+  color: var(--light);
+  cursor: pointer;
 }
 
 /* Media Queries */
