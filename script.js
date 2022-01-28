@@ -1,5 +1,6 @@
 // search form in smaller screens
 searchForm = document.querySelector(".search-form");
+
 document.querySelector("#search-btn").onclick = () => {
   searchForm.classList.toggle("active");
 };
