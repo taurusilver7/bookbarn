@@ -193,6 +193,9 @@ html::-webkit-scrollbar-thumb {
   width: 100%;
   margin: 1rem 0;
   font-size: 1rem;
+  border: var(--border);
+  border-radius: 0.25rem;
+  padding: 0.5rem;
 }
 
 /* Media Queries */
