@@ -142,11 +142,13 @@ html::-webkit-scrollbar-thumb {
   z-index: 1000;
   display: none;
 }
+
 .bottom-navbar a {
   font-size: 1.5rem;
   padding: 2rem;
   color: #fff;
 }
+
 .bottom-navbar a:hover {
   background-color: var(--dark-color);
 }
