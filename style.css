@@ -41,6 +41,25 @@ html::-webkit-scrollbar-thumb {
   background: var(--black);
 }
 
+section {
+  padding: 5rem 9%;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  background: var(--green);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn:hover {
+  background: var(--dark-color);
+}
+
 .header .header-1 {
   background: #fff;
   padding: 1.5rem 9%;
@@ -153,6 +172,8 @@ html::-webkit-scrollbar-thumb {
   background-color: var(--dark-color);
 }
 
+/* login container */
+
 .login-form-container {
   display: flex;
   align-items: center;
@@ -160,10 +181,14 @@ html::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.9);
   position: fixed;
   top: 0;
-  left: 0;
+  right: -105%;
   z-index: 10000;
   height: 100%;
   width: 100%;
+}
+
+.login-form-container.active {
+  right: 0;
 }
 
 .login-form-container form {
@@ -213,6 +238,31 @@ html::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
+.login-form-container form .btn {
+  text-align: center;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.login-form-container form p a {
+  color: var(---green);
+  text-decoration: underline;
+}
+.login-form-container #close-login-btn {
+  position: absolute;
+  top: 1.5rem;
+  right: 2.5rem;
+  font-size: 2rem;
+  color: var(--black);
+  cursor: pointer;
+}
+
+/* home section */
+
+.home {
+  background: url(/img/banner-bg.jpg) no-repeat;
+}
+
 /* Media Queries */
 
 @media (max-width: 991px) {
@@ -221,6 +271,9 @@ html::-webkit-scrollbar-thumb {
   }
   .header .header-1 {
     padding: 2rem;
+  }
+  section {
+    padding: 3rem 2rem;
   }
 }
 
