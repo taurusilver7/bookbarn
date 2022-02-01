@@ -261,6 +261,15 @@ section {
 
 .home {
   background: url(/img/banner-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
 /* Media Queries */
