@@ -290,6 +290,22 @@ section {
   transform: scale(0.9);
 }
 
+.home .row .books-slider .stand {
+  width: 100%;
+  margin-top: -2rem;
+}
+
+.home .row .content h3 {
+  color: var(--black);
+  font-size: 4.5rem;
+}
+
+.home .row .content p {
+  color: var(--light);
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
 /* Media Queries */
 
 @media (max-width: 991px) {
