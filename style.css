@@ -272,6 +272,10 @@ section {
   gap: 1.5rem;
 }
 
+.home .row .content {
+  flex: 1 1 42rem;
+}
+
 /* Media Queries */
 
 @media (max-width: 991px) {
