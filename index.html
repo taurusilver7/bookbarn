@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Book Store</title>
 
+    <!-- swiper link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
     <!-- font awesome cdn link -->
     <link
       rel="stylesheet"
@@ -99,19 +105,33 @@
           </p>
           <a href="#" class="btn"></a>
         </div>
-        <div class="books-slider">
-          <div class="wrapper">
-            <a href="#"><img src="img/book-1.png" alt="book-1" /></a>
-            <a href="#"><img src="img/book-2.png" alt="book-2" /></a>
-            <a href="#"><img src="img/book-3.png" alt="book-3" /></a>
-            <a href="#"><img src="img/book-4.png" alt="book-4" /></a>
-            <a href="#"><img src="img/book-5.png" alt="book-5" /></a>
-            <a href="#"><img src="img/book-6.png" alt="book-6" /></a>
+        <div class="swiper books-slider">
+          <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide"
+              ><img src="img/book-1.png" alt="book-1"
+            /></a>
+            <a href="#" class="swiper-slide"
+              ><img src="img/book-2.png" alt="book-2"
+            /></a>
+            <a href="#" class="swiper-slide"
+              ><img src="img/book-3.png" alt="book-3"
+            /></a>
+            <a href="#" class="swiper-slide"
+              ><img src="img/book-4.png" alt="book-4"
+            /></a>
+            <a href="#" class="swiper-slide"
+              ><img src="img/book-5.png" alt="book-5"
+            /></a>
+            <a href="#" class="swiper-slide"
+              ><img src="img/book-6.png" alt="book-6"
+            /></a>
           </div>
           <img src="img/stand.png" class="stand" alt="stand" />
         </div>
       </div>
     </section>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- custom js file -->
     <script src="/script.js"></script>
