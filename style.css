@@ -282,7 +282,12 @@ section {
   margin-top: 2rem;
 }
 
-.home .row .books-slider a {
+.home .row .books-slider a img {
+  height: 25rem;
+}
+
+.home .row .books-slider a:hover img {
+  transform: scale(0.9);
 }
 
 /* Media Queries */
