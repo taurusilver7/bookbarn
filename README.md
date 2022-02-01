@@ -18,3 +18,5 @@
 Fontawesome cdnjs [link](https://cdnjs.com/libraries/font-awesome/5.15.4)
 
 [Google fonts](https://fonts.google.com/specimen/Poppins?query=poppins)
+
+[Swiper](https://swiperjs.com.get-started)
