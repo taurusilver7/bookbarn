@@ -49,3 +49,20 @@ var swiper = new Swiper(".books-slider", {
     },
   },
 });
+var swiper = new Swiper(".featured-slider", {
+  loop: true,
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    450: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+  },
+});
