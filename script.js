@@ -51,6 +51,15 @@ var swiper = new Swiper(".books-slider", {
 });
 var swiper = new Swiper(".featured-slider", {
   loop: true,
+  centerdSlides: true,
+  autoplay: {
+    delay: 9500,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
   breakpoints: {
     0: {
       slidesPerView: 1,
