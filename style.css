@@ -48,7 +48,7 @@ section {
 .btn {
   margin-top: 1rem;
   display: inline-block;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   color: #fff;
   background: var(--green);
@@ -305,6 +305,30 @@ section {
   font-size: 1.4rem;
   line-height: 2;
   padding: 1rem 0;
+}
+
+/* Icons */
+
+.icons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+.icons-container .icons {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+
+.icons-container .icons i {
+  font-size: 3.5rem;
+  color: var(--green);
+}
+.icons-container .icons h3 {
+  font-size: 1.2rem;
+  color: var(--black);
+  padding-bottom: 0.5rem;
 }
 
 /* Media Queries */
