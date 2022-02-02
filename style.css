@@ -398,7 +398,7 @@ section {
   right: 0;
   background: #fff;
   z-index: 1;
-  transform: translateY(-100%);
+  transform: translateY(-105%);
 }
 
 .featured .featured-slider .box:hover .icons {
@@ -422,12 +422,12 @@ section {
 }
 
 .featured .featured-slider .box .content h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--black);
 }
 
 .featured .featured-slider .box .content .price {
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: var(--black);
   padding-top: 1rem;
 }
