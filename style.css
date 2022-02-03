@@ -458,6 +458,15 @@ section {
   color: #fff;
 }
 
+/* Newsletter */
+
+.newsletter {
+  background: url("img/letter-bg.jpg") no-repeat center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 /* Media Queries */
 
 @media (max-width: 991px) {
