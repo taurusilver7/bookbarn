@@ -569,6 +569,26 @@ section {
   line-height: 2;
 }
 
+/* reviews section */
+
+.reviews .reviews-slider .box {
+  width: 30rem;
+  border: var(--border);
+  padding: 2rem;
+  text-align: center;
+}
+
+.reviews .reviews-slider .box:hover {
+  border: var(--border-hover);
+}
+
+.reviews .reviews-slider .box img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 /* Media Queries */
 
 @media (max-width: 991px) {
