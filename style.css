@@ -510,6 +510,11 @@ section {
   height: 15rem;
 }
 
+.arrivals .arrivals-slider .box .content h3 {
+  font-size: 2rem;
+  color: var(--black);
+}
+
 /* Media Queries */
 
 @media (max-width: 991px) {
