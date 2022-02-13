@@ -36,6 +36,7 @@ window.onload = () => {
 // swiper script
 
 var swiper = new Swiper(".books-slider", {
+  spaceBetween: 5,
   loop: true,
   breakpoints: {
     0: {
@@ -52,6 +53,7 @@ var swiper = new Swiper(".books-slider", {
 
 var swiper = new Swiper(".featured-slider", {
   loop: true,
+  spaceBetween: 10,
   centerdSlides: true,
   autoplay: {
     delay: 9500,
@@ -80,6 +82,29 @@ var swiper = new Swiper(".featured-slider", {
 var swiper = new Swiper(".arrivals-slider", {
   loop: true,
   centerdSlides: true,
+  spaceBetween: 10,
+  autoplay: {
+    delay: 9500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+});
+
+var swiper = new Swiper(".reviews-slider", {
+  loop: true,
+  centerdSlides: true,
+  spaceBetween: 10,
+  grabCursor: true,
   autoplay: {
     delay: 9500,
     disableOnInteraction: false,
