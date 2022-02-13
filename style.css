@@ -529,7 +529,8 @@ section {
 }
 
 .arrivals .arrivals-slider .box .content .stars {
-  
+  font-size: 1.5rem;
+  color: var(--green);
 }
 
 /* Media Queries */
