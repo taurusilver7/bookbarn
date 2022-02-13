@@ -541,6 +541,16 @@ section {
   gap: 1.5rem;
 }
 
+.deal .content {
+  flex: 1 1 42rem;
+}
+.deal .image {
+  flex: 1 1 42rem;
+}
+
+.flex .image img {
+  width: 100%;
+}
 /* Media Queries */
 
 @media (max-width: 991px) {
