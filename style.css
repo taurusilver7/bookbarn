@@ -515,6 +515,23 @@ section {
   color: var(--black);
 }
 
+.arrivals .arrivals-slider .box .content .price {
+  font-size: 2.2rem;
+  color: var(--black);
+  padding-bottom: 0.5rem;
+}
+
+.arrivals .arrivals-slider .box .content .price span {
+  font-size: 1.5rem;
+  color: var(--light);
+  text-decoration: line-through;
+  padding-left: 0.5rem;
+}
+
+.arrivals .arrivals-slider .box .content .stars {
+  
+}
+
 /* Media Queries */
 
 @media (max-width: 991px) {
