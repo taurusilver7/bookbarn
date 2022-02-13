@@ -1,6 +1,7 @@
 # Responsive Book Store Design
 
 > A completely responsive online book store website using html, CSS and javascript.
+> Demo page [here](/index.html)
 
 👉🏻 responsive double header with search form and bottom navbar sticky effect using javascript.<br />
 👉🏻 responsive home section with book self slider using swiper.js<br />
