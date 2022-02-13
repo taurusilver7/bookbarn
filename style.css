@@ -576,6 +576,7 @@ section {
   border: var(--border);
   padding: 2rem;
   text-align: center;
+  margin: 2rem 0;
 }
 
 .reviews .reviews-slider .box:hover {
@@ -605,6 +606,34 @@ section {
 .reviews .reviews-slider .box .stars i {
   font-size: 1.5rem;
   color: var(--green);
+}
+
+/* blog section */
+
+.blogs .blogs-slider .box {
+  margin: 2rem 0;
+  width: 30rem;
+  border: var(--border);
+}
+
+.blogs .blogs-slider .box .image {
+  height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.blogs .blogs-slider .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.blogs .blogs-slider .box:hover .image img {
+  transform: scale(1.1);
+}
+
+.blogs .blogs-slider .box .content {
+  padding: 1.5rem;
 }
 
 /* Media Queries */
