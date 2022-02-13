@@ -589,6 +589,24 @@ section {
   object-fit: cover;
 }
 
+.reviews .reviews-slider .box h3 {
+  color: var(--black);
+  font-size: 2rem;
+  padding: 0.5rem 0;
+}
+
+.reviews .reviews-slider .box p {
+  color: var(--light);
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+
+.reviews .reviews-slider .box .stars i {
+  font-size: 1.5rem;
+  color: var(--green);
+}
+
 /* Media Queries */
 
 @media (max-width: 991px) {
