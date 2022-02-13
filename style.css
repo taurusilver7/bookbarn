@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&family=Poppins:wght@100;300;400;500;600&family=Rancho&display=swap");
 
 :root {
-  --green: #27ae60;
-  --dark-color: #218150;
+  --green: #27aeae;
+  --dark-color: #218181;
   --black: #444;
   --light: #666;
   --border: 0.1rem solid rgba(0, 0, 0, 0.1);
@@ -685,9 +685,41 @@ section {
   width: 100%;
 }
 
-.footer .share a {
-  h
+.footer .share {
+  padding: 1rem 0;
+  text-align: center;
 }
+
+.footer .share a {
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  color: #fff;
+  background: var(--green);
+  margin: 0 0.3rem;
+  border-radius: 50%;
+}
+
+.footer .share a:hover {
+  background: var(--black);
+}
+
+.footer .credit {
+  border-top: var(--border);
+  margin-top: 2rem;
+  padding: 0 1rem;
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  color: var(--light);
+  text-align: center;
+}
+
+.footer .credit span {
+  color: var(--green);
+}
+
+/* loader secttions */
 
 /* Media Queries */
 
