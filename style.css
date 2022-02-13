@@ -616,6 +616,10 @@ section {
   border: var(--border);
 }
 
+.blogs .blogs-slider .box:hover {
+  border: var(--border-hover);
+}
+
 .blogs .blogs-slider .box .image {
   height: 25rem;
   width: 100%;
@@ -634,6 +638,17 @@ section {
 
 .blogs .blogs-slider .box .content {
   padding: 1.5rem;
+}
+
+.blogs .blogs-slider .box .content h3 {
+  font-size: 2rem;
+  color: var(--black);
+}
+.blogs .blogs-slider .box .content p {
+  font-size: 1.2rem;
+  color: var(--light);
+  padding: 1rem 0;
+  line-height: 1.5;
 }
 
 /* Media Queries */
