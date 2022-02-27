@@ -736,7 +736,7 @@ section {
   height: 10rem;
 }
 
-.loader-container .active {
+.loader-container.active {
   display: none;
 }
 
