@@ -3,16 +3,15 @@
 > A completely responsive online book store website using html, CSS and javascript.
 > Demo page [here](/index.html)
 
-- A responsive double header with search form and bottom navbar sticky effect using Javascript.<br />
-- A responsive home section with book self slider using Swiper.js<br />
+- A responsive double header with search form and bottom navbar sticky effect using Javascript.
+- A responsive home section(book shelf slider) and card section(touch slider) using Swiper.js
 - A responsive icons section using CSS grid.<br />
-- responsive featured card section with touch slider using swiper.js<br />
-- responsive newsletter section with parallax background.<br />
-- responsive arrivals card section with touch slider using swiper.js<br />
-- responsive deals section using css flexbox.<br />
-- responsive testimonial card section with touch slider using swiper.js<br />
+- A responsive featured using Swiper.js<br />
+- A responsive newsletter section with Parallax background.<br />
+- A responsive arrivals card section and testimonial card section with touch slider using Swiper.js<br />
+- A responsive deals section using CSS flexbox.<br />
 - responsive blogs / posts / news card section with touch slider using swiper.js<br />
-- responsive footer section using css grid.
+- responsive footer section using CSS grid.
 
 ## Build Resources
 
